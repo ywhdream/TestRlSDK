@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!-- res/layout/reward_item_layout.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:ignore="MissingConstraints">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#efefef"
+        app:layout_constraintTop_toBottomOf="@+id/tv_created_at" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="tv_created_at" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_created_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_type_label"
+        tools:text="tv_created_at" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_type_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="tv_type_label" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        jcenter()
+        mavenLocal()
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+
+
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        jcenter()
+        mavenLocal()
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        gradlePluginPortal()
+    }
+}
+rootProject.name = "TestRlSDK"
+include ':app'
+
+include ':oauth'
