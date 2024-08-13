@@ -63,14 +63,14 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
-    implementation 'androidx.recyclerview:recyclerview:1.2.1'
-
-    implementation 'com.scwang.smart:refresh-layout-kernel:2.0.3'      //核心必须依赖
-    implementation 'com.scwang.smart:refresh-header-classics:2.0.3'    //经典刷新头
-    implementation 'com.scwang.smart:refresh-footer-classics:2.0.3'    //经典加载
-    implementation 'com.alimuzaffar.lib:pinentryedittext:1.3.10'
-
-    implementation project(':oauth')
+//    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+//
+//    implementation 'com.scwang.smart:refresh-layout-kernel:2.0.3'      //核心必须依赖
+//    implementation 'com.scwang.smart:refresh-header-classics:2.0.3'    //经典刷新头
+//    implementation 'com.scwang.smart:refresh-footer-classics:2.0.3'    //经典加载
+//    implementation 'com.alimuzaffar.lib:pinentryedittext:1.3.10'
+//
+//    implementation project(':oauth')
 
 //    implementation 'com.github.ywhdream:RlOAuthSDK:v1.0.1'
 
