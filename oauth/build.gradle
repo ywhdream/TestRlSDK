@@ -44,6 +44,20 @@ android {
         }
     }
 }
+//新添加的
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.yiyikeji.oauth'
+                artifactId = 'final'
+                version = '1.0.0'
+            }
+        }
+    }
+}
+
 
 dependencies {
 
