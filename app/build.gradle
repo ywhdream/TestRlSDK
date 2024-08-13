@@ -72,7 +72,7 @@ dependencies {
 
     implementation project(':oauth')
 
-//    implementation 'com.github.ywhdream:RlOAuthSDK:v1.0.1'
+//    implementation 'com.github.ywhdream:TestRlSDK:v1.0.5'
 
 
 }
