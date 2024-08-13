@@ -49,16 +49,16 @@
 <!--            app:pinTextBottomPadding="4dp" />-->
 
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/tvPinError"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/txtPinEnter"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp"
-            android:gravity="center"
-            android:textColor="#f4504d"
-            android:textSize="12sp" />
+<!--        <androidx.appcompat.widget.AppCompatTextView-->
+<!--            android:id="@+id/tvPinError"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/txtPinEnter"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="#f4504d"-->
+<!--            android:textSize="12sp" />-->
 
 
     </RelativeLayout>
