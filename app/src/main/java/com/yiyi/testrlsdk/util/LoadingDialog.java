@@ -18,7 +18,6 @@ import com.yiyi.testrlsdk.R;
 
 public class LoadingDialog {
 
-
     private final float DEFAULT_ALPHA = 0.8f;
     private AlertDialog sLoadingDialog;
     private AnimationDrawable mAnimationDrawable;
