@@ -27,38 +27,38 @@
             tools:ignore="HardcodedText" />
 
 
-<!--        <com.alimuzaffar.lib.pin.PinEntryEditText-->
-<!--            android:id="@+id/txtPinEnter"-->
-<!--            android:layout_width="220dp"-->
-<!--            android:layout_height="20dp"-->
-<!--            android:layout_below="@+id/tvTitle"-->
-<!--            android:layout_centerHorizontal="true"-->
-<!--            android:background="@null"-->
-<!--            android:cursorVisible="false"-->
-<!--            android:digits="1234567890"-->
-<!--            android:focusable="true"-->
-<!--            android:focusableInTouchMode="true"-->
-<!--            android:inputType="number"-->
-<!--            android:maxLength="6"-->
-<!--            android:textColor="@android:color/transparent"-->
-<!--            android:textIsSelectable="true"-->
-<!--            android:textSize="0px"-->
-<!--            app:pinBackgroundDrawable="@drawable/bg_pin_round"-->
-<!--            app:pinBackgroundIsSquare="true"-->
-<!--            app:pinCharacterSpacing="20dp"-->
-<!--            app:pinTextBottomPadding="4dp" />-->
+        <com.alimuzaffar.lib.pin.PinEntryEditText
+            android:id="@+id/txtPinEnter"
+            android:layout_width="220dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tvTitle"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textColor="@android:color/transparent"
+            android:textIsSelectable="true"
+            android:textSize="0px"
+            app:pinBackgroundDrawable="@drawable/bg_pin_round"
+            app:pinBackgroundIsSquare="true"
+            app:pinCharacterSpacing="20dp"
+            app:pinTextBottomPadding="4dp" />
 
 
-<!--        <androidx.appcompat.widget.AppCompatTextView-->
-<!--            android:id="@+id/tvPinError"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_below="@+id/txtPinEnter"-->
-<!--            android:layout_centerHorizontal="true"-->
-<!--            android:layout_marginTop="16dp"-->
-<!--            android:gravity="center"-->
-<!--            android:textColor="#f4504d"-->
-<!--            android:textSize="12sp" />-->
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPinError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPinEnter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="#f4504d"
+            android:textSize="12sp" />
 
 
     </RelativeLayout>
