@@ -3,11 +3,11 @@ package com.yiyikeji.oauth.http
 import java.net.URLEncoder
 
 /**
- * @Author ywh
+ * @Author yiyikeji
 
  * @Date 2024/6/28
 
- * @类的作用:
+ * @类的作用:网络请求API
  */
 object ApiServer {
     const val baseUrl = "http://1.12.181.89:5125/openapi/"

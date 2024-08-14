@@ -13,6 +13,14 @@ import java.net.URL
 import java.nio.charset.Charset
 import kotlin.coroutines.suspendCoroutine
 
+/**
+ * @Author yiyikeji
+
+ * @Date 2024/6/28
+
+ * @类的作用:网络请求基础类
+ */
+
 object NetworkClient {
 
     // 异步网络请求函数，支持动态请求类型和参数
